@@ -1,5 +1,59 @@
 /* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
 
-body {
-  background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.hero-area{
+    background: url(../img/imageshots-582.jpg);
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+header  {
+    background: url(""); 
+    height: 500px
+}
+.box1{
+    float: left;
+    width: 32%;
+    margin-right: 2%
+    background-color: #00802f; 
+    padding: 20px;
+    display: 100px;
+    padding: 30px;
+    box-sizing: border-box
+    text-align: center;
+}
+
+.box2{
+    float: left;
+    width: 32%
+    background-color: #accc3d;
+    padding: 20px;
+    display: 100px;
+    padding: 30px;
+    box-sizing: border-box
+    text-align: center;
+}
+
+.box3{
+    float: left;
+    width: 32%
+    background-color: #95c7e8;
+    padding: 15px;
+    display: 100px;
+    padding: 30px;
+    box-sizing: border-box
+    text-align: center;
+}
+
